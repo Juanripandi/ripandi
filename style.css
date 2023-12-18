@@ -61,7 +61,7 @@ a {
 	bottom: 0;
 	left: -300px;
 	width:300px;
-	background-color: rgba(118, 127, 120, .9);
+	background-color: rgba(47, 115, 61, 0.9);
 	transition: .3s;
 	z-index:  9999;
 }
@@ -80,7 +80,8 @@ a {
 	left: 0;
 }
 .banner {
-	background-color: #92817A;
+	opacity: 85%;
+	background-position-y: bottom;
 	padding:150px 0;
 }
 section {
@@ -120,7 +121,7 @@ section h3::before {
 	width:120px;
 	height:1px;
 	background-color: #ddd;
-	left: calc(50% - 60px);
+	left: calc(50% - 60%);
 }
 section h3::after {
 	content:'';
@@ -130,7 +131,7 @@ section h3::after {
 	width:40px;
 	height:4px;
 	background-color: #BEDBBB;
-	left: calc(50% - 20px);
+	left: calc(50% - 20%);
 }
 #about p {
 	text-align: justify;
@@ -156,13 +157,13 @@ section h3::after {
 	text-align: center;
 }
 .photoshop {
-	width:45%;
+	width: 70%;
 }
 .kinemaster {
-	width:70%;
+	width:45%;
 }
 .flstudio {
-	width:50%;
+	width:40%;
 }
 .coreldraw {
 	width:65%;
